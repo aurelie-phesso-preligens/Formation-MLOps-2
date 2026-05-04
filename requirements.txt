@@ -11,15 +11,14 @@ sqlalchemy==1.4.46
 psycopg2-binary==2.9.5
 
 # App
-streamlit==1.29.0
+streamlit==1.23.1
 
-# Airflow (>=2.10 required for email-validator>=2 / flask-appbuilder>=4.5)
-apache-airflow==2.10.3
+# Airflow
+apache-airflow==2.11.0
 
-# Mlflow (>=2.18 with genai requires fastapi → email-validator>=2)
-mlflow==2.18.0
+# Mlflow
+mlflow==3.11.1
 
-# Pinned to satisfy both Airflow and mlflow
-email-validator>=2.0
-werkzeug>=2.3,<3.1
-protobuf>=4.21,<6
+werkzeug==2.2.2
+protobuf==3.20.3
+email-validator==2.3.0
