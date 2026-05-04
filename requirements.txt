@@ -14,11 +14,11 @@ psycopg2-binary==2.9.5
 streamlit==1.23.1
 
 # Airflow
-apache-airflow==2.8.4
+apache-airflow>=2.9
 
 # Mlflow
 mlflow>=2.18
 
 werkzeug==2.2.2
 protobuf==3.20.3
-email-validator==2.3.0
+email-validator>=2.0
